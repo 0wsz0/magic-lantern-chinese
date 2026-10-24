@@ -4,7 +4,7 @@
 [![Camera models](https://img.shields.io/badge/%E6%9C%BA%E5%9E%8B-16%20%E4%B8%AA%E5%85%A8%E9%83%A8%E5%8F%AF%E7%94%A8-0084c1)](#支持的型号)
 [![Downloads](https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-releases%2F%E7%9B%AE%E5%BD%95-orange)](../../releases/)
 
-> **魔灯（Magic Lantern）简体中文全量汉化**——源码级实现，非二进制补丁。
+> **魔灯（Magic Lantern）简体中文全量汉化**，源码级实现，非二进制补丁。
 > 覆盖全部 **16 个可安装机型**；真机验证于 Canon EOS 60D。
 > 搜索关键词：魔灯中文版 · 魔灯汉化 · 佳能魔灯中文 · 魔灯 中文 · magic lantern 中文 / chinese · ML 汉化
 
@@ -31,17 +31,17 @@
 
 上游对 5D2/7D/50D/70D/500D/550D 已停止维护（`platform/README-unmaintained.txt`），本项目的 `scripts/patch_ml5_unmaintained.py` 与 `patch_ml6*_7d.py` 修好了三处缺口，让它们重新可编：
 
-1. `raw.c`：无 `EVF_STATE` 的老机型没有 `BLACK_LEVEL` 宏——硬编码黑电平赋值加 `#ifdef` 守卫，老机型维持自动检测的历史行为；
+1. `raw.c`：无 `EVF_STATE` 的老机型没有 `BLACK_LEVEL` 宏。硬编码黑电平赋值加 `#ifdef` 守卫，老机型维持自动检测的历史行为；
 2. `property.h`：70D（DIGIC5，与 5D3/6D 同世代）补 `PROP_HTP/PROP_MLU` 属性 ID（取同世代值，**未真机验证**）；
 3. 7D：`features.h` 补上与 `FEATURE_HEADPHONE_MONITORING` 配套关闭的 `FEATURE_HEADPHONE_OUTPUT_VOLUME`（同 500D 的姿势）；其依赖的 7D_MASTER 组件在 `master_boot.c` 补 `clean_d_cache` 桥接与 gdb 补丁函数最小桩（主核本不支持断点补丁）。
 
-这些修复只影响编译通过性，除第 2 条外不改变任何运行行为。**除 60D 外均为编译通过但未经真机验证**的社区构建——汉化层在共享源码里，理论上面板一致，但请各机型用户自担风险、反馈效果。
+这些修复只影响编译通过性，除第 2 条外不改变任何运行行为。**除 60D 外均为编译通过但未经真机验证**的社区构建。汉化层在共享源码里，理论上面板一致，但请各机型用户自担风险、反馈效果。
 
 ## 这是什么
 
 给佳能相机的 Magic Lantern 提供**完整的简体中文界面**：
 
-- **1550+ 条翻译**：全部页签、菜单条目、两行帮助文本、选项值（开/关/佳能/中央…）、动态提示
+- **1550+ 条翻译**：全部页签和菜单条目，两行帮助文本，开/关/佳能/中央这类选项值，以及动态提示
 - **内置四档中文点阵字库**（12/23/28/32 px，847 字符，Noto Sans CJK SC 渲染），中英文同格显示、可混排
 - **UTF-8 渲染管线**：魔灯原版按单字节绘制，本项目在其 RBF 字体引擎中加入 UTF-8 解码与码点查找，未命中自动回退英文
 - 不依赖相机语言设置、不依赖卡上字体文件；纯 `autoexec.bin` 替换即用
@@ -60,7 +60,7 @@
 sudo apt install gcc-arm-none-eabi python3-pil fonts-noto-cjk
 git clone --depth 1 https://github.com/dannephoto/magic-lantern_jip_hop.git ~/ml-src
 bash scripts/build.sh              # 单机型（60D）：提取→翻译→字库→补丁→编译
-bash scripts/build_all.sh          # 全部 18 个机型批量编译
+bash scripts/build_all.sh          # 全部机型批量编译
 # 产物: ~/ml-src/platform/<型号>/autoexec.bin 或 releases/autoexec-zh-*.bin
 ```
 
@@ -71,7 +71,7 @@ bash scripts/build_all.sh          # 全部 18 个机型批量编译
 | `extract_all.py` | 从 ML 源码提取 `.name` `.help` `.help2` `.choices` 与 `MENU_SET_HELP/WARNING` 常量串 |
 | `t2c.py` | 合并 `translations/*.tsv` 生成 `src/i18n_zh.c`（`ml_tr()` 查表，未命中返回原文） |
 | `gen_chars.py` + `gen_zh_font.py` | 由译文提取字符集，用 PIL + Noto Sans CJK 烘 4 档 1bpp 点阵，生成 `zh_font.c/.h` |
-| `patch_ml*.py` | 对 `rbf_font.c`（UTF-8 解码、四档选档、5 个绘制/宽度循环）与 `menu.c`（条目名/帮助/页签名/选项值挂钩）打幂等补丁 |
+| `patch_ml*.py` | 对 `rbf_font.c`（UTF-8 解码和四档选档，外加 5 个绘制/宽度循环）与 `menu.c`（条目名/帮助/页签名/选项值挂钩）打幂等补丁 |
 | Makefile 兼容 | GCC 14 构建需 `-fcommon` 与若干 `-Wno-error`（见 `build.sh`） |
 
 ## 翻译
