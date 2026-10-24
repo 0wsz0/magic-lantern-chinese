@@ -236,10 +236,11 @@ Alpha blend
 Altering mode  	
 Alternate frames only	
 Always	
-Always ON	
 Always On	
+Always ON	
 Ambient light	
 Analog Gain	
+Analog Gain (dB)	
 Anamorphic	
 Any channel	
 Aperture	
@@ -249,8 +250,8 @@ Arkanoid
 Arrow keys	
 Arrow/SET shortcuts	
 Ask for password on startup	
-Aspect ratio	
 Aspect Ratio	
+Aspect ratio	
 Audio delay	
 Audio Gain	
 Audio Meters	
@@ -365,16 +366,16 @@ Clip warning
 Clock	
 Close register log	
 cmos[0]	
-CMOS[1]	
 cmos[1]	
+CMOS[1]	
 CMOS[1] hi	
 CMOS[1] lo	
 CMOS[2]	
 cmos[2]	
-CMOS[3]	
 cmos[3]	
-cmos[4]	
+CMOS[3]	
 CMOS[4]	
+cmos[4]	
 CMOS[5]	
 cmos[5]	
 CMOS[6]	
@@ -445,8 +446,8 @@ Detect Size
 Dialog test	
 Diffraction-aware	
 DIGIC poke	
-Digital dolly	
 Digital Dolly	
+Digital dolly	
 Digital Gain	
 DigitalZoom Shortcut	
 Dim display	
@@ -825,8 +826,8 @@ Mirror
 Mirror Lockup	
 Misc Benchmarks	
 Misc key settings	
-ML Digital ISO	
 ML digital ISO	
+ML Digital ISO	
 ML Grayscale	
 ML ISOs	
 MLU	
@@ -842,6 +843,7 @@ Mode warning
 Module	
 Module info	
 Modules debug	
+Monitoring-USB	
 More hacks	
 Motion Detect	
 Movie	
@@ -1047,8 +1049,8 @@ Resolution Index
 Resolution preset	
 Response curve @ current ISO	
 Restore ML defaults	
-reverse	
 Reverse	
+reverse	
 RGB	
 RGB (HTML)	
 RGB (Percent)	
@@ -1140,8 +1142,8 @@ Shutter Button
 Shutter Count	
 shutter fine-tuning	
 shutter lock	
-shutter range	
 Shutter range	
+shutter range	
 Shutter/Aperture	
 Sidecar file type	
 Silent Mode	
@@ -1184,8 +1186,8 @@ Start
 Start & CPUlens	
 Start address	
 Start after	
-Start delay	
 Start Delay	
+Start delay	
 Start in MyMenu	
 Start logging	
 Start only	
@@ -1213,8 +1215,8 @@ Sync beep
 Sync w. Shutter	
 Tag: Take	
 Tag: Text	
-Take a pic	
 Take a Pic	
+Take a pic	
 Take a pic every	
 Tap display	
 Tap display 01	
@@ -1330,8 +1332,8 @@ WBShift B/A
 WBShift G/M	
 When recording	
 WhenIdle	
-white balance	
 White Balance	
+white balance	
 White Noise	
 Wind Filter	
 Wrong Password	

@@ -1,24 +1,44 @@
-# Magic Lantern 中文汉化 · EOS 60D
+# Magic Lantern 中文汉化 · 全型号
 
 > Magic Lantern (魔灯) 简体中文全量汉化——源码级实现，非二进制补丁。
-> Canon EOS 60D (固件 1.1.1) · ML unified 2025-06 源码树
+> 覆盖 ML unified 2025-06 源码树支持的**全部 18 个构建目标**；真机验证于 Canon EOS 60D。
 
 [English](#english) 见下方。
 
+## 支持的型号
+
+**编译产出 10 个型号**（`releases/autoexec-zh-<型号>.bin`，均已内置全部翻译与字库）：
+
+| 相机 | 构建目标（固件） | 真机验证 |
+|---|---|---|
+| **60D** | 60D.111 | ✅ 已验证 |
+| 5D Mark III | 5D3.113 / 5D3.123（按你固件选） | ⬜ 待社区反馈 |
+| 6D | 6D.116 | ⬜ |
+| 700D | 700D.115 | ⬜ |
+| 650D | 650D.104 | ⬜ |
+| 600D | 600D.102 | ⬜ |
+| 100D | 100D.101 | ⬜ |
+| 1100D | 1100D.105 | ⬜ |
+| EOS M | EOSM.202 | ⬜ |
+
+**未能编译的 7 个目标**（5D2 / 7D / 7D_MASTER / 50D / 70D / 500D / 550D）：上游源码树对这批老机型**本身就不维护**（见 `platform/README-unmaintained.txt`，编译在 `raw.c` 的 `BLACK_LEVEL`、`cfn-generic.h` 的 `PROP_HTP/PROP_MLU` 等机型常量缺失处失败，与汉化无关）。要支持它们需要先把端口修活——欢迎社区接手，修活后跑 `scripts/build_all.sh` 即可直接产出中文版。
+
+**除 60D 外均为编译通过但未经真机验证**的社区构建——汉化层在共享源码里，理论上面板一致，但请各机型用户自担风险、反馈效果。
+
 ## 这是什么
 
-给佳能 EOS 60D 的 Magic Lantern 提供**完整的简体中文界面**：
+给佳能相机的 Magic Lantern 提供**完整的简体中文界面**：
 
-- **1550 条翻译**：全部页签、菜单条目、两行帮助文本、选项值（开/关/佳能/中央…）、动态提示
-- **内置四档中文点阵字库**（12/23/28/32 px，773+ 字符，Noto Sans CJK SC 渲染），中英文同格显示、可混排
+- **1550+ 条翻译**：全部页签、菜单条目、两行帮助文本、选项值（开/关/佳能/中央…）、动态提示
+- **内置四档中文点阵字库**（12/23/28/32 px，847 字符，Noto Sans CJK SC 渲染），中英文同格显示、可混排
 - **UTF-8 渲染管线**：魔灯原版按单字节绘制，本项目在其 RBF 字体引擎中加入 UTF-8 解码与码点查找，未命中自动回退英文
 - 不依赖相机语言设置、不依赖卡上字体文件；纯 `autoexec.bin` 替换即用
 
-## 使用方法
+## 使用方法（任意型号）
 
-1. 按魔灯官方流程安装（对应固件 1.1.1）：`releases/autoexec-zh-60d-m4.bin` 改名为 `autoexec.bin`，与 `ML-SETUP.FIR`、`ML/` 目录一起放到 FAT32 卡根目录，相机内先格式化存储卡，再执行"固件升级"开启启动标志
-2. 之后升级/回滚只须替换卡上 `autoexec.bin`，无需重跑安装
-3. 回滚官方英文版：换回官方 zip 里的 `autoexec.bin` 即可
+1. 从 [builds.magiclantern.fm](https://builds.magiclantern.fm) 下载**你相机型号的官方 ML 包**（选 2025-06 的 dev 构建，与本项目源码同期），按官方流程安装（相机内格式化卡 → 拷入 `ML-SETUP.FIR`+`ML/` → 固件升级开启动标志）
+2. 装好后，用本仓库 `releases/` 里对应型号的 `autoexec-zh-<型号>.bin` **替换卡根目录的 `autoexec.bin`**，开机即中文
+3. 升级/回滚都只须替换 `autoexec.bin`（换回官方 zip 里那个即回英文）
 
 > 免责声明：Magic Lantern 与本项目均"可能损坏你的相机"，自担风险。仅供个人研究学习。
 
@@ -27,8 +47,9 @@
 ```bash
 sudo apt install gcc-arm-none-eabi python3-pil fonts-noto-cjk
 git clone --depth 1 https://github.com/dannephoto/magic-lantern_jip_hop.git ~/ml-src
-bash scripts/build.sh          # 提取→合并翻译→生成字库→打补丁→编译
-# 产物: ~/ml-src/platform/60D.111/autoexec.bin
+bash scripts/build.sh              # 单机型（60D）：提取→翻译→字库→补丁→编译
+bash scripts/build_all.sh          # 全部 18 个机型批量编译
+# 产物: ~/ml-src/platform/<型号>/autoexec.bin 或 releases/autoexec-zh-*.bin
 ```
 
 `build.sh` 内部流程（每步都是可独立重跑的幂等脚本）：

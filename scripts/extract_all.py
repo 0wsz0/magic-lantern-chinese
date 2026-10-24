@@ -51,7 +51,7 @@ def collect(files):
 
 src_files = [f for f in glob.glob(os.path.join(root, 'src', '*.c'))
              if not f.endswith(('zebra-5dc.c', 'audio-lapis.c'))]
-mod_files = glob.glob(os.path.join(root, 'modules', '*', '*.c'))
+mod_files = glob.glob(os.path.join(root, 'modules', '*', '*.c')) + glob.glob(os.path.join(root, 'platform', '*', '*.c'))
 
 n1, h1, e1 = collect(src_files)
 n2, h2, e2 = collect(mod_files)
