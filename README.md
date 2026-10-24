@@ -1,5 +1,9 @@
 # 中文魔灯 · Magic Lantern Chinese
 
+[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0)
+[![Camera models](https://img.shields.io/badge/%E6%9C%BA%E5%9E%8B-16%20%E4%B8%AA%E5%85%A8%E9%83%A8%E5%8F%AF%E7%94%A8-0084c1)](#支持的型号)
+[![Downloads](https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-releases%2F%E7%9B%AE%E5%BD%95-orange)](../../releases/)
+
 > **魔灯（Magic Lantern）简体中文全量汉化**——源码级实现，非二进制补丁。
 > 覆盖全部 **16 个可安装机型**；真机验证于 Canon EOS 60D。
 > 搜索关键词：魔灯中文版 · 魔灯汉化 · 佳能魔灯中文 · 魔灯 中文 · magic lantern 中文 / chinese · ML 汉化
