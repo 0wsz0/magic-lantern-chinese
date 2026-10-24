@@ -1,7 +1,8 @@
-# Magic Lantern 中文汉化 · 全型号
+# 中文魔灯 · Magic Lantern Chinese
 
-> Magic Lantern (魔灯) 简体中文全量汉化——源码级实现，非二进制补丁。
-> 覆盖 ML unified 2025-06 源码树支持的**全部 18 个构建目标**；真机验证于 Canon EOS 60D。
+> **魔灯（Magic Lantern）简体中文全量汉化**——源码级实现，非二进制补丁。
+> 覆盖全部 **16 个可安装机型**；真机验证于 Canon EOS 60D。
+> 搜索关键词：魔灯中文版 · 魔灯汉化 · 佳能魔灯中文 · 魔灯 中文 · magic lantern 中文 / chinese · ML 汉化
 
 [English](#english) 见下方。
 
@@ -84,6 +85,6 @@ bash scripts/build_all.sh          # 全部 18 个机型批量编译
 
 ## English
 
-Full Simplified Chinese localization for Magic Lantern on Canon EOS 60D, implemented at source level: a 1,550-entry translation table, a built-in 4-tier (12/23/28/32 px) bitmap CJK font rendered from Noto Sans CJK SC, and a UTF-8 decode layer added to ML's RBF font engine. Build pipeline: extract strings from ML source → merge TSV translations → generate font → apply idempotent patches → cross-compile with `gcc-arm-none-eabi`. GPL-2.0, same as upstream. See 构建方法 above for the build steps and 使用方法 for installation.
+Full Simplified Chinese localization ("中文魔灯") for Magic Lantern on **all 16 installable Canon camera models**, implemented at source level: a 1,550+ entry translation table, a built-in 4-tier (12/23/28/32 px) bitmap CJK font rendered from Noto Sans CJK SC, and a UTF-8 decode layer added to ML's RBF font engine. Hardware-verified on EOS 60D. Build pipeline: extract strings from ML source → merge TSV translations → generate font → apply idempotent patches → cross-compile with `gcc-arm-none-eabi`. GPL-2.0, same as upstream. See 构建方法 above for the build steps and 使用方法 for installation.
 
 made by wsz@Gavin
