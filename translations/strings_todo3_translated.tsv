@@ -1,0 +1,387 @@
+0 (Grayscale)	0 (灰度)
+1 (OFF)	1 (关)
+af off	AF关
+af on	AF开
+After taking a pic	拍完照后
+All Encrypted	全部加密
+All Images	全部图像
+All values	全部数值
+Allow	允许
+Alpha blend	半透明混合
+Always	总是
+Always On	始终开
+Always ON	始终开
+Any channel	任意通道
+Arrow keys	方向键
+Auto	自动
+auto mode	自动模式
+Auto Snap	自动吸附
+Auto-Hide	自动隐藏
+Av+MainDial	光圈+主拨盘
+Av,ISO	光圈,ISO
+Av,Tv	光圈,快门
+Avg Bitrate	平均码率
+Away	离开
+Background PW	后台密码
+Background RSA	后台RSA
+Balanced	平衡
+Banding detection	条带检测
+Blinking dots	闪烁点
+Block during REC	录制时屏蔽
+Blue	蓝
+Bright Gray	亮灰
+Buffer usage	缓冲占用
+Buffers	缓冲
+Busy tasks (ABS)	忙任务(绝对)
+Busy tasks (REL)	忙任务(相对)
+Bypass loading ML	跳过加载ML
+Canon	佳能
+CBR Fixed QP	CBR固定QP
+Center	中央
+Check	检查
+Compare Images	对比图像
+Context help	上下文帮助
+Continuous	连续
+Cyan	青
+Dark	暗
+Dark Gray	深灰
+Dark Green	深绿
+Dark Red	深红
+Debug	调试
+default mode	默认模式
+Diffraction-aware	考虑衍射
+disable	禁用
+Disable	禁用
+Disabled	已禁用
+Don't allow	不允许
+Don't change	不改变
+DUAL (unreliable!)	双卡(不可靠!)
+Dynamic Range	动态范围
+Edge + chroma	边缘+色彩
+Edge image	边缘图像
+Edit in LiveView	在LV中编辑
+Edit values	编辑数值
+Elapsed	已用时间
+Elapsed Time	已用时间
+Every second	每秒
+Every update	每次更新
+Expo. change	曝光变化
+Exposure (Flash)	曝光(闪光)
+Exposure (Tv,Ae)	曝光(快门,AE)
+Exposure Fusion	曝光融合
+External stereo	外部立体声
+Extreme Chroma	极端色彩
+Fine details	细节
+Fine dots	细点
+Focus box	对焦框
+Focus Ring	对焦环
+Focus+ZREC	对焦+放大录制
+FocusR+HalfS	对焦环+半按
+Frame diff.	帧差
+Framing	构图
+Frozen LV	冻结LV
+ft/in	英尺/英寸
+Full	全
+Full range	全范围
+Full Z on last pos.	上次位置全放大
+Full zoom on AF pt.	对焦点全放大
+FullScreen	全屏
+Global Focus	全局对焦
+Grayscale	灰度
+Green	绿
+Green Bars	绿条
+Green channel	绿色通道
+GreenScreen	绿幕
+Half	半
+Half Shutter	半按快门
+Half-shutter: hold	半按:保持
+Half-shutter: pre only	半按:仅预升
+Half-shutter: start/pause	半按:开始/暂停
+HalfS DblClick	半按双击
+HalfShutter	半按快门
+Handheld	手持
+Hide	隐藏
+High	高
+Hold AF button	按住AF键
+Hold during REC	录制时保持
+Icon	图标
+in LiveView	在LV中
+Instant Bitrate	瞬时码率
+Internal mic	内置麦克风
+Junkie mode	极客模式
+L/R & Set+Dial	左右键和SET+拨盘
+L:int R:balanced	左:内置 右:平衡
+Large	大
+LCD sensor	LCD感应器
+Leave Menu	离开菜单
+Leave unchanged	保持不变
+LED, popup, beep	LED、弹窗、提示音
+Linear	线性
+LiveView	实时取景
+Local Focus	局部对焦
+Log	日志
+Lossless DNG	无损DNG
+Low	低
+Luma	亮度
+Magenta	品红
+Medium	中
+Mirror	镜像
+ML Grayscale	ML灰度
+ML ISOs	ML ISO档
+mm/cm	毫米/厘米
+Mode 1	模式1
+Mode 2	模式2
+Mode 3	模式3
+Movie	视频
+Near	近
+None	无
+None selected	未选择
+Normal	标准
+normal	标准
+Normal (OFF)	标准(关)
+OFF	关
+Off	关
+OFF (1)	关(1)
+Off/H264.ini	关/H264.ini
+On	开
+ON	开
+ON (!)	开(!)
+ON (1s)	开(1秒)
+ON (fast zoom)	开(快速放大)
+ON, 35mm eq.	开,等效35mm
+ON, all modes	开,所有模式
+Open submenu	打开子菜单
+Open submenu (Q)	打开子菜单(Q)
+other than AF	非AF时
+other than Av	非光圈优先时
+other than AWB	非自动白平衡时
+other than fine	非精细时
+other than M	非M档时
+other than MF	非MF时
+other than OFF	非关闭时
+other than P	非P档时
+other than RAW	非RAW时
+other than Tv	非快门优先时
+Overlays (PLAY only)	叠加(仅回放)
+Override	覆盖
+Password	密码
+Percentage	百分比
+Photo only	仅拍照
+Photo, ExpSim	拍照,曝光模拟
+Photo, no ExpSim	拍照,无曝光模拟
+Pickbox	选框
+press down	按下
+Press PLAY	按PLAY
+Press SET	按SET
+Protect Image	保护图像
+QuickReview	快速回看
+Rate Control	码率控制
+Rate Image	评分图像
+Raw	RAW
+Real time idle	实时空闲
+Real-time	实时
+Recording	录制中
+Rectilinear	直线投影
+Red	红
+Register	寄存器
+Register + caller PC	寄存器+调用PC
+Register + caller task	寄存器+调用任务
+Remain.4GB	剩至4GB
+Remain.Card	卡剩余
+Remain.time (card)	卡剩余时间
+Remaining Time	剩余时间
+Required to load ML	加载ML必需
+Reverse	反转
+reverse	反转
+RSA (paranoid)	RSA(偏执)
+Self-Timer	自拍
+Separate WAV	独立WAV
+SET+Erase	SET+删除
+Set+MainDial	SET+主拨盘
+Shortcuts	快捷键
+Shortcuts (LV only)	快捷键(仅LV)
+Show previous pic	显示上一张
+Simple	简单
+Sine	正弦
+Slightly sharper	略锐
+Small	小
+SplitScreen	裂像屏
+Square	正方
+Start & CPUlens	启动+CPU镜头
+Start only	仅启动
+Start/Stop	启动/停止
+Steady hands	机身稳定
+sticky push	锁定推送
+Stop only	仅停止
+Strong edges	强边缘
+Take a pic	拍一张
+Take a Pic	拍一张
+Tap display 01	点触屏01
+Tap display 02	点触屏02
+Tap display 03	点触屏03
+Tap display 04	点触屏04
+Tap display 05	点触屏05
+Tap display 06	点触屏06
+Tap display 07	点触屏07
+Tap display 08	点触屏08
+Time Until 4GB	到4GB剩余
+Timelapse Play	延时播放
+Toggle	切换
+Turn off	关闭
+Tv,Av	快门,光圈
+Tv,ISO	快门,ISO
+VBR (QScale)	VBR(QScale)
+Very high	很高
+Very low	很低
+Wave	波形
+WhenIdle	空闲时
+White Noise	白噪声
+Wrong Password	密码错误
+Yellow	黄
+Zero	零
+Zoom	放大
+Zoom.REC	放大.录制
+ZoomIn (+)	放大(+)
+1st deriv.	一阶导数
+2nd deriv.	二阶导数
+ \nDisplay the dynamic range at current ISO, from noise stdev.\nShow how many stops you can push the exposure to the right.\n	 \n显示当前ISO下的动态范围（由噪声标准差计算）。\n展示曝光还能向右推多少档。\n
+ \nFull: try ISO bracket first. If out of range, use main var.\nHalf: Bracket with both ISO (50%) and main variable (50%).\n	 \n完全：先尝试ISO包围，超出范围再用主变量。\n一半：ISO（50%）与主变量（50%）同时包围。\n
+(e.g. Kingston 16GB 266x is known to require this)	（例如金士顿16GB 266x已知需要此项）
+(in EVs above the noise floor)	（以高于噪声底的EV计）
+=> adjust ISO, shutter speed and aperture without large jumps.	=> 调整ISO、快门、光圈而不产生大跳变。
+Advanced: digital ISO tweaks, HTP, ISO 50, ISO 800.000...	高级：数字ISO微调、HTP、ISO 50、ISO 51200…
+Advanced: WBShift, RGB multipliers, Push-button WB...	高级：白平衡偏移、RGB倍率、一键白平衡…
+After using display filters, go outside LiveView and back.	用完显示滤镜后，退出实时取景再进入。
+AGC is enabled.	自动增益控制已启用。
+Also up/down keys/joystick work as +/- rating if zoomed out.	未放大时，上下键/摇杆也可用作加减评分。
+Also useful to trigger off of motion or trap focus	也可由运动检测或陷阱对焦触发
+Always ON: just the Canon mode, press shutter twice.\nSelf-Timer: MLU setting will be linked to Canon self-timer.\nHandheld: trick to reduce camera shake. Press shutter once.	始终开：即佳能方式，按两次快门。\n自拍：预升设置联动佳能自拍。\n手持：减少机震的技巧，按一次快门。
+Assign AF button to half-shutter from CFn!	请先在自定义功能里把AF键设为半按快门！
+Autofocus and bracketing don't mix.	自动对焦与包围不能同时用。
+Be careful, bitrate is not constant, recording may stop.	注意码率不恒定，录制可能中止。
+Be careful, high bitrates and sound recording don't mix.	注意高码率与录音不能同时用。
+Be careful, image quality may be bad.	注意画质可能变差。
+Be careful, recording may stop.	注意录制可能中止。
+Be careful, won't take pics if it can't autofocus.	注意：无法自动合焦时不会拍摄。
+Beeps disabled to prevent interference with audio recording.	已禁用提示音以防干扰录音。
+Bitrate may vary a lot (several orders of magnitude!)	码率波动可能很大（几个数量级！）
+Btw: Real focus patterns aren't working on 6D (yet?).	注：真实对焦模式在6D上暂不可用。
+Bulb timer only works in BULB mode	B门计时仅在B门模式下有效
+Cache is locked down (not exactly clean).	缓存被锁定（状态并不干净）。
+Canon code requires around 1 MB from here.	佳能代码在此区域需要约1MB。
+CBR mode inactive => CBR setting not used.	CBR未激活，CBR设置不生效。
+Crop video mode works in 1080p only	裁切视频模式仅支持1080p
+Cropmarks are configured only for movie mode	裁切标记仅为视频模式配置
+Custom white balance is not active => not used.	自定义白平衡未激活，不生效。
+Default value: 19 for APS-C and 29 for full-frame cameras.	默认值：APS-C为19，全画幅为29。
+Depends on REC key being set.	取决于REC键设置。
+Disable autofocus.	禁用自动对焦。
+Disable image stabilization.	禁用防抖。
+Do not load ML if you start the camera with SET pressed (default)\nLoad ML only if SET is pressed at startup (optional)	按住SET开机则不加载ML（默认）\n仅在开机时按住SET才加载ML（可选）
+Does not work on external monitors.	外接显示器上无效。
+Enable exposure override to get proper exposure simulation.	启用曝光越界以获得正确的曝光模拟。
+EXP: reacts to exposure changes (large movements).\nDIF: detects smaller movements that do not change exposure.\nSTDY: take pic if there's little or no motion (cam steady).	EXP：响应曝光变化（大幅运动）。\nDIF：检测不改变曝光的小幅运动。\nSTDY：画面几乎不动（机身稳定）时拍摄。
+Expo bracket. M: changes shutter. Others: changes AEcomp.\nFlash bracket: change flash exposure compensation.\nDOF bracket: keep exposure constant, change Av/Tv ratio.	曝光包围：M档变快门，其他档变曝光补偿。\n闪光包围：改变闪光曝光补偿。\n景深包围：曝光不变，改变光圈快门组合。
+Expo Override is active, LiveView exposure may be incorrect.	曝光越界已启用，实时取景曝光可能不准。
+Extended mode is enabled. Set ISO/Shutter on frame basis.	扩展模式已启用，可逐帧设置ISO/快门。
+Extended WB values are only applied to movies, not photos.	扩展白平衡值仅作用于视频，不作用于照片。
+Flash is automatic, can't adjust.	闪光为自动，无法调整。
+Focus peaking with grayscale preview is enabled.	峰值对焦与灰度预览同时启用。
+Focus stacking not configured.	焦点堆栈未配置。
+For intervalometer, motion detect, trap focus, audio remote.	用于延时摄影、运动检测、陷阱对焦、声控快门。
+For LiveView preview only. Does not affect recording.\nSwap U-V: reverses red and blue components\nExtreme Chroma: highly saturated image showing WB direction\n	仅实时取景预览，不影响录制。\n交换U-V：红蓝分量互换\n极端色彩：高饱和显示白平衡方向\n
+For playback, go to Audio -> Sound Recorder.	回放请到 音频 → 录音机。
+FPS ramping disabled.	帧率渐变已禁用。
+FPS value is computed from photo shutter speed.	帧率由拍照快门速度推算。
+Full-screen Magic Zoom does not work in crop mode	全屏魔放大镜在裁切模式下无效
+GPS is turned off from Canon menu, nothing to do.	GPS已在佳能菜单关闭，无需处理。
+GPS set to external; this feature is only for the internal one.	GPS设为外部；此功能仅针对内置GPS。
+GREEN=shoot, CYAN=srm, BLUE=maybe free, RED=maybe used.	绿=拍摄内存，青=SRM，蓝=可能空闲，红=可能占用。
+Has no effect when trigger is set to take a pic	触发方式为拍照时此项无效
+Headphone monitoring is disabled	耳机监听已禁用
+If not loading a config MUST set InitQP	不加载配置时必须设置初始QP
+If RAW data is not available, it will fall back to YUV-based.	无RAW数据时回退为基于YUV的显示。
+Internal error - please report to ML devs.	内部错误——请报告给魔灯开发者。
+Internal GPS will be re-enabled at next startup.	内置GPS将在下次开机时重新启用。
+It may change the way you use M mode. Maybe I'm just crazy.	它会改变你用M档的方式，也许只是我疯了。
+LCD brightness is auto in Canon menu. It won't work.	LCD亮度为佳能菜单自动，此功能无效。
+LED will blink every 10s. WARNING: this limit is there for good reason!	LED每10秒闪一次。警告：这个限制存在是有理由的！
+LiveView exposure may be incorrect. Enable expo override to fix it.	实时取景曝光可能不准，启用曝光越界可修复。
+Long exposure tools may use bulb timer value, even if BT is disabled.	长曝光工具可能使用B门计时值，即使它已禁用。
+Magic Zoom does not work in HDMI 1080i.	魔放大镜在HDMI 1080i下无效。
+Magic Zoom does not work well in current video mode	魔放大镜在当前视频模式下效果不佳
+Magic Zoom does not work with SD monitors	魔放大镜不适用于SD显示器
+Magic Zoom is not available in this mode	魔放大镜在此模式不可用
+Master DIGiC hacks not available in this release.	本版本不含主DIGIC功能。
+Mic power is required by internal mic, can't turn off.	内置麦克风需要供电，无法关闭。
+ML uses too much memory!!	魔灯占用内存过多！！
+N/A	不适用
+No burst bracketing series, please.	请不要用连拍包围。
+No further writes will be performed on your card from the camera.	相机不会再向你的存储卡写入任何数据。
+Not compatible with HDMI 50p/60p.	与HDMI 50p/60p不兼容。
+Not enough free memory.	空闲内存不足。
+Numbers represent the percentage of pixels clipped.	数字表示削波像素的百分比。
+On 7D, FPS override can be used only with RAW, or in photo mode.	7D上帧率覆盖仅限RAW或拍照模式。
+On some lenses, this may be reversed.	部分镜头方向可能相反。
+Only used if you start bracketing by pressing the shutter.	仅当用快门启动包围时生效。
+Only works when 'Auto power off' is disabled in Canon menu.	仅在佳能菜单关闭「自动关机」时有效。
+or hold it pressed halfway (enables image stabilization).	或保持半按（启用防抖）。
+Other ML features may use the options below (e.g. intervalometer in LV).	其他魔灯功能可能使用以下选项（如LV中的延时摄影）。
+Overriding dynamic configs will result in fixed QP	覆盖动态配置将导致固定QP
+Pickbox: SET shows a list of choices, select and confirm.\nToggle: SET will toggle ON/OFF or increment current value.\nAuto: SET toggles ON/OFF items, pickbox for 3+ choices.	选框：SET弹出选项列表，选择后确认。\n切换：SET在开/关间切换或递增值。\n自动：开关项切换，3个以上选项用选框。
+PLAY: quick start.	PLAY：快速启动。
+Press SET for detailed info.	按SET查看详情。
+Press shutter halfway and be careful (tricky feature).	半按快门并小心使用（易出问题）。
+Read-only.	只读。
+Read-only. Lenses from different manufacturers may have the same ID.	只读。不同厂家的镜头ID可能相同。
+Read-only. Should match exiftool TEST.CR2 -LensSerialNumber .	只读。应与exiftool的镜头序列号一致。
+Read-only. Zoom lenses are only updated in LiveView.	只读。变焦镜头仅在实时取景时更新。
+Restart your camera to complete the process.	重启相机以完成该操作。
+Restart your camera.	请重启相机。
+Shoot wide-open or unscrew lens to avoid aperture flicker.	全开光圈或卸下镜头以避免光圈闪烁。
+Shutter speed is automatic - cannot adjust manually.	快门为自动，无法手动调整。
+Simple: only consider defocus blur, ignoring diffraction effects.\nDiffraction-aware: consider both defocus and diffraction blur.\n	简单：只考虑离焦模糊，忽略衍射。\n考虑衍射：离焦与衍射模糊都计入。\n
+Sound recording must be disabled from Canon menu.	必须先在佳能菜单关闭录音。
+Strong edges: looks for edges, works best in low light.\nBalanced: tries to cover both strong edges and fine details.\nFine details: looks for microcontrast. Needs lots of light.\n	强边缘：找边缘，弱光下最好。\n均衡：兼顾强边缘与细节。\n细节：找微反差，需要大量光线。\n
+Take darker images.\nTake dark, bright, even darker, even brigther images, in that order\nTake brighter images.\n	先拍暗的。\n按 暗、亮、更暗、更亮 的顺序拍摄\n先拍亮的。\n
+The new config preset will be used after you restart your camera.	新配置预设将在重启后生效。
+The screenshot will contain BMP and YUV overlays.	截图将包含BMP与YUV叠加。
+This allocator does not implement get_max_region.	此分配器未实现get_max_region。
+This changes Canon card selection at startup - nothing else.	仅改变开机时佳能的选卡行为。
+This entry is unused. Increase step count.	此项未使用，请增加步数。
+This feature does not work with HDR bracketing.	此功能与HDR包围不兼容。
+This feature only works as long as you don't trigger autofocus.	此功能仅在你不触发自动对焦时有效。
+This is only an upper limit for the bitrate.	这只是码率的上限。
+This module will be loaded at next reboot.	此模块将在下次重启时加载。
+This module will no longer be loaded at next reboot.	此模块下次重启后不再加载。
+This patch was overwritten, probably by Maxwell's demon.	此补丁被覆盖了（大概被麦克斯韦妖干了）。
+This works by lowering ISO => you may get pink highlights.	通过降低ISO实现，高光可能偏粉。
+Tip: if it gets really dark, also enable FPS override.	提示：太暗时可同时开启帧率覆盖。
+Tip: in photo mode, it makes LiveView usable in darkness.	提示：拍照模式下让实时取景在全黑可用。
+Tip: it prevents you from changing it by mistake.	提示：防止误改。
+Tip: press MENU to interrupt the stacking sequence.	提示：按MENU可中断堆栈序列。
+Tip: set this to -1 for a nice vignette effect.	提示：设为-1可得到不错的暗角效果。
+To trigger, hold shutter pressed halfway for 1 second.	触发方式：半按快门保持1秒。
+To use LCD sensor, enable LCD Sensor Shortcuts in Misc Key Settings.	要使用LCD感应器，请在按键杂项里启用LCD感应器快捷键。
+To use this feature, enable LCD Sensor Shortcuts in Misc Key Settings.	要使用此功能，请在按键杂项里启用LCD感应器快捷键。
+Too much for this lil' cam... both defishing and anamorphic	小相机吃不消……去畸变和变形别同时开
+Trap focus in LV not working with silent pictures.	LV陷阱对焦与静音拍摄不兼容。
+Trap focus outside LiveView requires a chipped lens	LV外的陷阱对焦需要带芯片的镜头
+Trying to guess how much RAM we have...	正在推测可用内存…
+Turn off Canon bracketing (AEB)!	请关闭佳能的自动包围曝光(AEB)！
+Usable in complete darkness; try with FPS Override or Bulb Timer.	全黑环境可用；可配合帧率覆盖或B门计时。
+Use M mode to avoid exposure flicker.	用M档避免曝光闪烁。
+Use manual white balance to avoid WB flicker.	用手动白平衡避免白平衡闪烁。
+Use slow shutter speeds to avoid shutter flicker.	用慢快门避免快门闪烁。
+Useful for long exposures, manual lenses, manual video ctl.	适用于长曝光、手动镜头、手动视频控制。
+VBR mode inactive => QScale setting not used.	VBR未激活，QScale设置不生效。
+Video hacks disabled.	视频功能已禁用。
+When you exit ML menu, or at camera startup.\nOn half-shutter press.\nAfter you take the first picture.	退出魔灯菜单或开机时。\n半按快门时。\n拍完第一张后。
+Will use Histobar in LiveView, RAW histogram after taking a pic.	实时取景用直方条，拍完后用RAW直方图。
+Will use RAW histogram in LiveView and after taking a pic.	实时取景与拍完后都用RAW直方图。
+With current settings, motion detect only works in LiveView.	当前设置下运动检测仅实时取景有效。
+Would be nice to have at least 128K free here.	这里最好至少留128K空闲。
+You can fine-tune this, but don't expect miracles.	可以微调，但别指望奇迹。
+You can't change crop mode while recording	录制中无法切换裁切模式
+You need to disable gradual exposure.	需要先禁用渐变曝光。
+You should never see this	你不该看到这条
