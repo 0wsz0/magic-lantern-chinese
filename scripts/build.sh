@@ -27,6 +27,9 @@ python3 "$HERE/gen_zh_font.py" /tmp/zh_chars.txt "$ML/src/"
 echo "== 4/6 打补丁（幂等）=="
 python3 "$HERE/patch_ml3.py"
 python3 "$HERE/patch_ml4.py"
+python3 "$HERE/patch_ml5_unmaintained.py"   # 老机型编译缺口（60D 无影响）
+python3 "$HERE/patch_ml6_7d.py"             # 7D：master 桥接（随后由 6b 修正为桩方案）
+python3 "$HERE/patch_ml6b_7d.py"
 
 echo "== 5/6 编译 =="
 cd "$ML/platform/60D.111"
